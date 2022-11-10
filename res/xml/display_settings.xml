@@ -171,5 +171,12 @@
             android:key="vr_display_pref"
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
+
+        <com.android.settings.preference.SystemSettingSwitchPreference
+            android:key="disable_fingerprint_animation"
+            android:title="@string/disable_fingerprint_animation_title"
+            android:summary="@string/disable_fingerprint_animation_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 </PreferenceScreen>

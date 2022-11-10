@@ -8,4 +8,8 @@
     <string name="package_name">Package name</string>
     <string name="package_version">Package version</string>
     <string name="package_version_text" translatable="false"><xliff:g id="version_num">%1$s</xliff:g></string>
+
+    <!-- Disable FP Anim -->
+    <string name="disable_fingerprint_animation_title">Disable Fingerprint Unlock Animation</string>
+    <string name="disable_fingerprint_animation_summary">Disables the animation when unlocking via fingerprint</string>
 </resources>
