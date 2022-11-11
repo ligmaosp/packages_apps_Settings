@@ -75,7 +75,7 @@ public class OemUnlockPreferenceController extends DeveloperOptionsPreferenceCon
 
     @Override
     public boolean isAvailable() {
-        return mOemLockManager != null;
+        return false;
     }
 
     @Override
